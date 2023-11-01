@@ -55,6 +55,19 @@ h1 {
 @media (min-width: 768px) {
     .main {
         display: flex;
+        justify-content: center;
+    }
+    .editor {
+        margin-top: 0.3rem;
+    }
+    .preview {
+        margin-top: -1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main {
+        display: flex;
     }
     .editor {
         width: 50%;
