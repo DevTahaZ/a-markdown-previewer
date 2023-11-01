@@ -19,7 +19,7 @@ function setDefaultEditor() {
     <dd>Is something people use sometimes.</dd>
 
     <dt>Markdown in HTML</dt>
-    <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+    <dd>Does *not* work **very** well..</dd>
 </dl>
 
 \`<div></div>\`
@@ -29,8 +29,6 @@ function setDefaultEditor() {
 - Day
 
 > Be A Programmer
-
-![Cat](https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo-500x281.png)
     `;
   let editorField = document.getElementById("editor");
   let previewElement = document.getElementById("preview");
